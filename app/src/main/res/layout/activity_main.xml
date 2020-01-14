@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle|end"
+    android:divider="@color/fd_text_nomal"
+    android:id="@+id/main_layout"
+    android:background="@color/white"
+    >
+
+    <com.example.mvpapplication.widget.SettingItemView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:text="个人信息"
+        app:textSize="18sp" />
+
+    <com.example.mvpapplication.widget.SettingItemView
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:text="问题反馈"
+        app:textSize="18sp" />
+
+    <com.example.mvpapplication.widget.SettingItemView
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:text="联系客服"
+        app:textSize="18sp" />
+    <com.example.mvpapplication.widget.SettingItemView
+        android:id="@+id/menu3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:text="我的留言"
+        app:textSize="18sp" />
+
+
+</LinearLayout>

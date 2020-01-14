@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/demension_dp60"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/setting_background"
+    android:layout_marginBottom="@dimen/demension_dp2"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/menu_text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="end"
+        android:ems="10"
+        android:textSize="@dimen/demension_dp20"
+        android:gravity="center_vertical"
+        android:lines="1"
+        tools:text="蚂蚁花呗" />
+
+    <ImageView
+        android:id="@+id/icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="iconRight"
+        android:padding="10dp"
+        android:src="@mipmap/return_back_icon" />
+
+
+</RelativeLayout>
